@@ -1,0 +1,240 @@
+@font-face {
+font-family: "adamcgpro";
+src: url(../fonts/adamcgpro.otf);
+
+}
+
+@font-face {
+font-family: "caviardreams";
+src: url(../fonts/caviardreams.ttf);
+
+}
+
+@font-face {
+font-family: "advent";
+src: url(../fonts/advent.otf);
+
+
+}
+
+body{
+	margin: -16px;
+}
+
+.container{
+	margin:0;
+	width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+ 
+.header{
+	margin: 0;
+	background-image: url(../images/headerfondo.png);
+	background-repeat: no-repeat;
+	height: 890px;
+	margin-right: auto;
+	margin-left: auto;
+	background-position: center;
+
+
+
+	
+
+	}
+
+	.menu{
+		padding-top: 10px;
+		display: flex;
+		justify-content: flex-end;
+		text-align: right;
+		font-family: adamcgpro;
+		list-style: none;
+		
+	}
+
+	.menu__item{
+		margin-left: 15px;
+	}
+
+
+
+
+.header__box{
+		text-align: center;
+		padding-top: 110px;
+		width: 770px;
+		height: 370px;
+
+}
+	
+.header__title{
+		font-family: adamcgpro;
+		font-size: 55px;
+		color: white;
+		text-align: center;
+		margin-top: 10px;
+		letter-spacing: 8px;
+
+
+	}
+
+	.header__text{
+		font-family: advent;
+		margin-top: -17px;
+    	font-size: 31px;
+    	letter-spacing: 4px;
+		color: white;
+
+	}
+
+	.menu__item{
+		margin-left: 40px;
+	}
+	.menu__link{
+		text-decoration: none;
+		color: white;
+		text-align: center;
+		transition: all 0.4s;
+	}
+	
+		.menu__link--first{
+			;
+		}
+		.menu__link--last{
+			
+		}
+
+		.menu__link:hover{
+			color: #00A2AD;
+		}
+
+
+/*----------------------------MAIN-------------------------------*/
+
+
+	
+
+/*--------------------------MY STORY------------------------------------*/
+
+.mystory{
+	padding-top: 40px;
+}
+
+.mystory__box{
+	width: 720px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.mystory__img{
+	display: inline-block;
+}
+
+}
+
+.mystory__title{
+
+	
+}
+
+.mystory__h2{
+	font-family: adamcgpro; 
+	font-size: 53px;
+	color: #BABABA;
+	letter-spacing: 8px;
+	text-align: center;
+
+}
+
+.mystory__text{
+	display: inline-block;
+	font-family: caviardreams;
+	width: 430px;
+	vertical-align: top;
+	color: black;
+	line-height: 21pt;
+    font-size: 18px;
+    margin: -6px 0 0 27px;
+
+}
+
+
+/*--------------------------PORTFOLIO----------------------*/
+.portfolio{
+	background-image: url(../images/portfoliocontact.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+
+.portfolio__title{
+	font-family: adamcgpro; 
+	font-size: 53px;
+	color: white;
+	letter-spacing: 8px;
+	text-align: center;
+
+}
+
+
+.portfolio__box{
+	padding-top: 153px;
+	margin: 0;
+	display: inline-block;
+	height: 1509px;
+	width: 380px;
+	vertical-align: top;
+	margin-right: 9px;
+}
+
+.portfolio__img{
+	display: block;
+	margin-bottom: 80px;
+	text-align: center;
+		margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio__box--last{
+	margin: 0;
+}
+
+.portfolio__text{
+
+
+}
+
+/*--------------------------CONTACT-----------*/
+
+display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+
+}
+
+
+
+
+
+
+/*---------------3------------------*/
+
+
+
+
+/*---------------------------FOOTER------------------------------*/
+
+.footer{
+	margin-top: 50px;
+}
+input{
+	background-color: #e6dfd9;
+	padding: 7px;
+	border-radius: 7px;
+
+
+}
